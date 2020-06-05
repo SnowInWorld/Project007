@@ -11,7 +11,7 @@ public class MainController {
 
     @RequestMapping(value = "/home")
     public String home(HttpServletRequest request){
-        String msg="主页";
+        String msg="<h1>主页</h1>";
         return msg;
     }
 }
